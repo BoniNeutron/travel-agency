@@ -1,0 +1,163 @@
+.greeting {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 40px 30px;
+}
+.greeting h1 {
+  color: #333333;
+  font-size: 48px;
+  font-weight: 900;
+}
+.greeting p {
+  color: #333333;
+
+  font-size: 24px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+.carLabel {
+  width: 333px;
+  height: 452px;
+  background: #fff;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.carImage {
+  display: flex;
+  align-items: center;
+}
+.carImage img {
+  width: 240px;
+  border-radius: 40px;
+}
+.carImage p {
+  margin-top: 30px;
+  border-radius: 13.5px;
+  background-color: #fdd008;
+  height: 27px;
+  width: 74px;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 900;
+  display: flex;
+  line-height: 0;
+  align-items: center;
+  justify-content: center;
+}
+.companyImageUrl {
+  width: 60px;
+}
+.carContent {
+  width: 240px;
+  margin: 0 auto;
+}
+.model h2 {
+  font-size: 24px;
+  color: #333333;
+}
+.model p {
+  font-size: 16px;
+  color: #999999;
+}
+.contIcons {
+  display: flex;
+  margin: 4px 0 12px 0;
+}
+.icons {
+  margin-right: 22px;
+  display: flex;
+  align-items: center;
+}
+.icons p {
+  margin-left: 6px;
+  color: #999999;
+}
+.icon {
+  color: #141284;
+}
+.line {
+  height: 1px;
+  width: 333px;
+  background: #dbdbdb;
+  position: relative;
+  left: -47px;
+  top: -24px;
+}
+.splitIcon {
+  width: 47px;
+  height: 47px;
+  color: #fff;
+  background: #141284;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
+}
+.price {
+  float: left;
+}
+.price p {
+  float: right;
+  color: #333333;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 2px;
+}
+.usd {
+  display: flex;
+  float: right;
+  align-items: flex-end;
+}
+.usd h3 {
+  line-height: 24px;
+  color: #141284;
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 2px;
+}
+.usd p {
+  color: #999999;
+  font-size: 12px;
+  font-style: italic;
+}
+.button {
+  height: 44px;
+  width: 292px;
+  margin: 0 auto;
+}
+.button button {
+  margin-top: 15px;
+  height: 100%;
+  width: 100%;
+  border-radius: 22px;
+  background-color: #141284;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.by {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 40px 30px;
+  text-align: right;
+}
+.by p {
+  color: #333333;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.by img {
+  width: 127.53px;
+}
