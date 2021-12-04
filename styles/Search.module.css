@@ -104,10 +104,9 @@
   z-index: 1;
 }
 .price {
-  float: left;
+  text-align: right;
 }
 .price p {
-  float: right;
   color: #333333;
   font-size: 12px;
   font-style: italic;
@@ -115,8 +114,8 @@
 }
 .usd {
   display: flex;
-  float: right;
   align-items: flex-end;
+  justify-content: right;
 }
 .usd h3 {
   line-height: 24px;

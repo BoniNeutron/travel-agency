@@ -134,11 +134,12 @@ function Search() {
                 </div>
                 <div className={styles.price}>
                   <div className={styles.usd}>
-                    <h3>USD {car.dailyRate}</h3>
+                    <h3>USD {car.dailyRate.toFixed(2)}</h3>
                     <p>/dia</p>
                   </div>
                   <p>
-                    USD {car.totalRate} /{car.totalRate / car.dailyRate} dias
+                    USD {car.totalRate.toFixed(2)} /
+                    {(car.totalRate / car.dailyRate).toFixed(0)} dias
                   </p>
                 </div>
               </div>
